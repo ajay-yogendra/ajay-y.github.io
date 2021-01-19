@@ -1,0 +1,23 @@
+div.learn{
+    background-image:url("learn_2(1).jpg");
+    background-repeat:no-repeat;
+    background-size:auto;
+    width: auto;
+    height: 700px;
+    margin-left:300px;
+}
+div.in_learn{
+    padding:20px;
+    font-size:300%;
+    color:black;
+    font-weight:bold;
+    text-align: center;
+    
+}
+div.sidebar{
+    width: 280px;
+    height: 5000;
+    position:fixed;
+    margin: 0px 10px;
+    background-color:powderblue;
+}
