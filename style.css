@@ -1,23 +1,78 @@
-div.learn{
+.flex{
+    display:flex;
+    
+}
+#entire.flex{
+    width:auto;
+    height:1818px;
+    margin-left:290px;
+    flex-direction:column;
+}
+#entire.flex > #learn{
     background-image:url("learn_2(1).jpg");
     background-repeat:no-repeat;
     background-size:auto;
     width: auto;
-    height: 700px;
-    margin-left:300px;
+    height: 628px;
+    flex-direction:column;
+ 
 }
-div.in_learn{
+#in_learn{
+    margin-top:100px;
     padding:20px;
     font-size:300%;
     color:black;
     font-weight:bold;
     text-align: center;
-    
+
 }
-div.sidebar{
+#entire.flex > #about{
+    height:450px;
+    width:1181px;
+    flex-direction:column;
+    background-color: rgb(250,200,200);
+    justify-content: center;
+}
+#entire.flex > #middle{
+    height:600px;
+    width:1181px;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+#middle.flex > #heading{
+    height: 30px;
+    width:300px;
+    text-align:center;
+    margin: 10px 20px 10px 20px;
+}
+#entire.flex > #contact{
+    height:140px;
+    width:1181px;
+    margin: 0px 10px;
+    background-color:rgb(250,200,200) ;
+}
+#sidebar.flex{
     width: 280px;
-    height: 5000;
+    height: 710px;
     position:fixed;
     margin: 0px 10px;
     background-color:powderblue;
+    flex-direction:column;
+    justify-content:center;
+}
+#sidebar.flex > div{
+    width:240px;
+    height:50px;
+    background-color:powderblue;
+    align-self:center;
+    text-align:center;
+    line-height:110%;
+    padding:10px;
+}
+#about.flex > div{
+    width:400px;
+    height:100px;
+    align-self:center;
+    text-align:center;
 }
